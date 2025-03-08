@@ -1,0 +1,137 @@
+@import url("./Nav.css");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+  
+}
+
+
+
+.hed-sect{
+    display: flex;
+}
+
+.hed-left{
+
+    /* background-color: red; */
+    width: 100%;
+    height: 700px;
+}
+
+.hed-right{
+
+    width: 100%;
+    height: 700px;
+
+    
+}
+
+.img-hed{   
+    width: 70%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+
+
+
+.hed-text-cont{
+    /* background-color: red; */
+    max-width: 500px;
+    margin-left: 200px;
+    margin-top: 0px;
+    
+}
+
+.hed-text-cont h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 100px;
+    margin-left: 50px;
+    max-width:500px;
+    font-size: 1.5cm;
+    color: black;
+    
+    font-family: Arial black;
+}
+
+
+
+.hed-text-cont h5 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    max-width: 340px;
+    position: relative;
+    top: 90px;
+    color: black;
+    left: 50px;
+    
+    font-family: Arial black;
+}
+
+.hed-text-cont p {
+    font-size: 17px;
+    max-width:340px;
+    position: relative;
+    left: 50px;
+    top: 30px;
+    font-family: Arial black;
+    color: gray;
+}
+
+.btn1{
+    position: relative;
+    left: 50px;
+    top: 50px;
+    background-color: #dbf859;
+    border: 0px solid #dbf859;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.btn2{
+    position: relative;
+    left: 50px;
+    top: 50px;
+    background-color: #ffffff;
+    border: 0px solid #dbf859;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.bi-star-fill {
+    background-color: #dbf859;
+    padding: 7px;
+    border-radius: 30px;
+    position: relative;
+    top: 8px;
+}
+
+.Rated{
+    position: relative;
+    left: 50px;
+}
